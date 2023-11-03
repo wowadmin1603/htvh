@@ -1,0 +1,178 @@
+#root {
+  max-width: 100%;
+  overflow: hidden;
+}
+.ed-container {
+  width: 100%;
+  max-width: 1234px;
+  margin: auto;
+}
+.cl-b {
+  color: #185adb;
+}
+.bg-b {
+  background-color: #185adb;
+}
+.cl-g {
+  color: #c3a775;
+}
+.bg-g {
+  background-color: #c3a775;
+}
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0a1931;
+}
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+p {
+  font-weight: 400;
+}
+.bg-121 {
+  background: url(./static/images/img10.png) left no-repeat;
+}
+.bg-123 {
+  background: url(./static/images/bg1.png) center no-repeat;
+  background-size: cover;
+}
+.bg-124 input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #000;
+  opacity: 1; /* Firefox */
+}
+
+.bg-124 input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000;
+}
+
+.bg-124 input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #000;
+}
+
+.bg-124 textarea::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #000;
+  opacity: 1; /* Firefox */
+}
+
+.bg-124 textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000;
+}
+
+.bg-124 textarea::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #000;
+}
+
+input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #cdcdcd;
+  opacity: 1; /* Firefox */
+}
+
+input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #cdcdcd;
+}
+
+input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #cdcdcd;
+}
+
+textarea::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #cdcdcd;
+  opacity: 1; /* Firefox */
+}
+
+textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #cdcdcd;
+}
+
+textarea::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #cdcdcd;
+}
+
+.cl-shake {
+  animation: shake 2s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  animation-iteration-count: infinite;
+}
+.cl-shake:hover {
+  animation-iteration-count: unset;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(4px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+.cl-swing {
+  animation: swing 2s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  animation-iteration-count: infinite;
+}
+.cl-swing:hover {
+  animation-iteration-count: unset;
+}
+@keyframes swing {
+  10%,
+  90% {
+    transform: rotate(10deg);
+  }
+
+  20%,
+  80% {
+    transform: rotate(-10deg);
+  }
+  30%,
+  50%,
+  70% {
+    transform: rotate(10deg);
+  }
+  40%,
+  60% {
+    transform: rotate(-10deg);
+  }
+}
+@media (min-width: 768px) {
+  .bg-122 {
+    /* background: url(./static/images/bg-12.png) left bottom no-repeat; */
+  }
+  h2 {
+    font-size: 38px;
+    font-weight: bold;
+  }
+}
+@media (max-width: 768px) {
+  .cl-12127 {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    border-radius: 0px;
+    background-color: #131e5b;
+  }
+}
